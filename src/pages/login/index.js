@@ -1,7 +1,12 @@
+import { Outlet } from "react-router-dom";
+
 function Login() {
-    return (
+  return (
+    <>
       <div>Login</div>
-    );
-  }
-  
-  export default Login;
+      <Outlet />
+    </>
+  );
+}
+
+export default Login;
